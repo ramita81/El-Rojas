@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+#titulo-principal{
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+}
+
+#titulo-secundario{
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    
+}
+
+.contenedor-grande{
+    background: #00c3ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 30em;
+}
+
+.contenedor-nav{
+   
+   display: flex;
+   justify-content: center;
+}
+
+ul li {
+    display: inline;
+    
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+.contenedor-instagram, .contenedor-tiktok, .contenedor-twitch{
+    display: inline-block;
+    width: 7em;
+    height: 7em;
+    margin-left: 1em;
+}
+
+.contenedor-instagram{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#icono-instagram{
+    width: 7em; 
+    background-repeat: no-repeat;
+
+}
+
+.contenedor-tiktok{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contenedor-twitch{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#icono-twitch{
+    width: 7em;
+}
+
+#icono-tiktok{
+    width: 7em;
+}
+
+
+footer{
+    border-style: solid;
+    border-top-width: 1px;
+    border-left-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    background: #00c3ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
